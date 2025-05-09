@@ -13,7 +13,7 @@ BANNER = f"""
 ==========================================================
   Google DriveFS Forensic Extractor & Metadata Exporter
   Version {VERSION}
-  (c) 2024 Blue Cape Security, LLC
+  (c) 2025 Blue Cape Security, LLC
   NO WARRANTY OR LIABILITY. Use at your own risk.
 ==========================================================
 Supported file types for recovery:
