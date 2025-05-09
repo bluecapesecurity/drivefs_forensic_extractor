@@ -36,9 +36,9 @@ python drivefs_recover.py -s <path_to_content_cache> -d <output_dir> [ -m <path_
 For example:
 ```bash
 python drivefs_recover.py \
-  -s "C:\Users\Alice\AppData\Local\Google\DriveFS\<UserID>\content_cache" \
+  -s "C:\Users\<user>\AppData\Local\Google\DriveFS\<UserID>\content_cache" \
   -d C:\ForensicOutput \
-  -m "C:\Users\Alice\AppData\Local\Google\DriveFS\<UserID>\metadata_sqlite_db"
+  -m "C:\Users\<user>\AppData\Local\Google\DriveFS\<UserID>\metadata_sqlite_db"
 ```
 
 - `-s` / `--source`: Path to the content_cache directory (REQUIRED)
